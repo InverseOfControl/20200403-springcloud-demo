@@ -2,51 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fdf5544-3d2f-4ef8-8d97-69bb11bf0f77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-config-client/src/main/java/com/ghx/springcloud/democonfigclient/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/src/main/java/com/ghx/springcloud/demoeurekaserver/DemoEurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-eureka-server/src/test/java/com/ghx/springcloud/demoeurekaserver/DemoEurekaServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-service-provider/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-service-provider/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-service-provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-service-provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-service-provider/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-service-provider/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-service-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-service-provider/src/main/java/com/ghx/springcloud/demoserviceprovider/DemoServiceProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-service-provider/src/main/java/com/ghx/springcloud/demoserviceprovider/stream/UserMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-service-provider/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-service-provider/src/test/java/com/ghx/springcloud/demoserviceprovider/DemoServiceProviderApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/configClient.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/configServer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/port.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-rabbitmq/src/main/java/com/ghx/springcloud/demorabbitmq/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-rabbitmq/src/main/java/com/ghx/springcloud/demorabbitmq/RabbitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-rabbitmq/src/main/java/com/ghx/springcloud/demorabbitmq/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-rabbitmq/src/main/java/com/ghx/springcloud/demorabbitmq/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/note/amqp.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20200403-springcloud-demo.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-config-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-config-client/src/main/java/com/ghx/springcloud/democonfigclient/DemoConfigClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-config-client/src/main/java/com/ghx/springcloud/democonfigclient/DemoConfigClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-config-client/src/main/java/com/ghx/springcloud/democonfigclient/observer/DemoObserverTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-config-client/src/main/java/com/ghx/springcloud/democonfigclient/observer/DemoPublisher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-config-client/src/main/java/com/ghx/springcloud/democonfigclient/observer/DemoSubscriber.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-config-client/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-config-client/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-config-server/src/main/java/com/ghx/springcloud/democonfigserver/DemoConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-config-server/src/main/java/com/ghx/springcloud/democonfigserver/DemoConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-config-server/src/main/java/com/ghx/springcloud/democonfigserver/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-config-server/src/main/java/com/ghx/springcloud/democonfigserver/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-config-server/src/main/java/com/ghx/springcloud/democonfigserver/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-config-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,9 +99,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.DemoConfigClientApplication">
-    <configuration name="DemoConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="DemoRabbitmqApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ghx.springcloud.demorabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ghx.springcloud.demorabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.ghx.springcloud.demorabbitmq.DemoRabbitmqApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="demo-config-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ghx.springcloud.democonfigclient.DemoConfigClientApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=7776" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,6 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoRabbitmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-rabbitmq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ghx.springcloud.demorabbitmq.DemoRabbitmqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoServiceProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo-service-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ghx.springcloud.demoserviceprovider.DemoServiceProviderApplication" />
@@ -163,16 +154,23 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.DemoRabbitmqApplicationTests.contextLoads" />
       <item itemvalue="Spring Boot.DemoConfigClientApplication" />
       <item itemvalue="Spring Boot.DemoConfigServerApplication" />
       <item itemvalue="Spring Boot.DemoServiceProviderApplication" />
       <item itemvalue="Spring Boot.DemoEurekaServerApplication" />
+      <item itemvalue="Spring Boot.DemoRabbitmqApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DemoRabbitmqApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.23991798" />
+        <option name="contentProportion" value="0.24265209" />
         <treeState>
           <expand>
             <path>
@@ -182,7 +180,12 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9ac5129e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1688d62f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b82c61f5" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9ac5129e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@af583d84" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -204,8 +207,16 @@
       <workItem from="1587886083690" duration="16000" />
       <workItem from="1587886131849" duration="434000" />
       <workItem from="1587887086225" duration="2698000" />
-      <workItem from="1587890533953" duration="5544000" />
+      <workItem from="1587890533953" duration="16797000" />
     </task>
+    <task id="LOCAL-00001" summary="配置中心和服务注册中心整合">
+      <created>1587896187962</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587896187962</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,5 +234,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="配置中心和服务注册中心整合" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置中心和服务注册中心整合" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/maven/repository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class</url>
+          <line>179</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

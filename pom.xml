@@ -10,7 +10,10 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>demo-config-client</module>
         <module>demo-config-server</module>
+        <module>demo-service-provider</module>
+        <module>demo-eureka-server</module>
     </modules>
 
     <properties>

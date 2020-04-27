@@ -1,5 +1,6 @@
 package com.ghx.springcloud.demorabbitmq;
 
+import com.ghx.springcloud.demorabbitmq.stream.UserMessageService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -8,11 +9,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 class DemoRabbitmqApplicationTests {
 
     @Autowired
-    private Sender sender;
+    private UserMessageService userMessageService;
 
     @Test
-    void contextLoads() {
-        sender.send();
+    void send() {
+        userMessageService.send();
     }
 
 }

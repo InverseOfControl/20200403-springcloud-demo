@@ -14,6 +14,7 @@
         <module>demo-config-server</module>
         <module>demo-service-provider</module>
         <module>demo-eureka-server</module>
+        <module>demo-rabbitmq</module>
     </modules>
 
     <properties>
